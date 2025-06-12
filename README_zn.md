@@ -39,7 +39,7 @@ sh ./build.sh
 
 ### AST 生成
 ```bash
-python ./gremlin_ast_gen2.py
+python ./gremlin_ast_gen.py
 ```
 
 ### 利用 AST 检查语法错误

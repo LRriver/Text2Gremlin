@@ -39,7 +39,7 @@ sh ./build.sh
 
 ### AST Generation
 ```bash
-python ./gremlin_ast_gen2.py
+python ./gremlin_ast_gen.py
 ```
 
 ### Syntax Checking Using AST
