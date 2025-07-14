@@ -1,4 +1,4 @@
-# Experiment-Text2Gremlin
+# Text2Gremlin
 [English] | [中文](./README_zn.md)
 
 This project aims to explore the method of generating Gremlin queries from natural language text and verify its feasibility.
