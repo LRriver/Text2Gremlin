@@ -1,0 +1,10 @@
+question,gremlin_query
+哪些由 James Earl Jones 出演的电影时长超过了 150 分钟，并列出它们的片名和时长？,"g.V().has('Person', 'name', 'James Earl Jones').out('ACTED_IN').has('duration', gt(150)).valueMap('title', 'duration')"
+请找出 James Earl Jones 参演的所有影片中，播放时间大于 150 分钟的电影名称和对应时长。,"g.V().has('Person', 'name', 'James Earl Jones').out('ACTED_IN').has('duration', gt(150)).valueMap('title', 'duration')"
+查询 James Earl Jones 主演的电影中，哪些片长超过两个半小时，显示这些影片的标题和具体时长。,"g.V().has('Person', 'name', 'James Earl Jones').out('ACTED_IN').has('duration', gt(150)).valueMap('title', 'duration')"
+哪些电影或节目是由演员 Lee J. Cobb 出演的？,"g.V().has('Person', 'name', 'Lee J. Cobb').out('ACTED_IN').elementMap()"
+Lee J. Cobb 参演过哪些作品？,"g.V().has('Person', 'name', 'Lee J. Cobb').out('ACTED_IN').elementMap()"
+查询 Lee J. Cobb 作为演员参与的所有影视项目。,"g.V().has('Person', 'name', 'Lee J. Cobb').out('ACTED_IN').elementMap()"
+电影《The Monuments Men》的时长是多少？,"g.V().has('Movie', 'title', 'The Monuments Men').values('duration')"
+查询影片《The Monuments Men》的播放时长。,"g.V().has('Movie', 'title', 'The Monuments Men').values('duration')"
+《The Monuments Men》这部电影有多长时间？,"g.V().has('Movie', 'title', 'The Monuments Men').values('duration')"

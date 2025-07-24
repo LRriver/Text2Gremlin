@@ -1,4 +1,4 @@
-# Experiment-Text2Gremlin
+# Text2Gremlin
 中文 | [English](./README.md)
 
 本项目旨在探索从自然语言文本生成 Gremlin 查询语句的方法，并验证其可行性。
