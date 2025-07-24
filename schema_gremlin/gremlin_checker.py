@@ -1,4 +1,4 @@
-# gremlin_checker.py
+# gremlin_checker.py  通过AST进行语法检查
 import os
 import sys
 from antlr4 import InputStream, CommonTokenStream
