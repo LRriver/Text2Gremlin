@@ -1,4 +1,4 @@
-# llm_handler.py
+# LLM交互模块，泛化qa数据
 import os
 import json
 from dotenv import load_dotenv
