@@ -31,11 +31,12 @@ The ANTLR4 JAR file (`antlr-4.13.1-complete.jar`) has already been downloaded an
 
 After that, run the `build.sh` script to process `.g4` files with ANTLR4 and generate parser code:
 ```bash
-cd Experiment-Text2Gremlin
+cd Text2Gremlin
 sh ./build.sh
 ```
 
-## Running Scripts
+## Phase 1: AST-based Text2Gremlin Testing
+This stage is only based on testing the implementation of Text2Gremli using AST, and has no practical implementation significance
 
 ### AST Generation
 ```bash
@@ -51,3 +52,6 @@ python ./gremlin_grammar_test.py
 ```bash
 python ./gremlin_ast_generator.py
 ```
+## Phase 2: LLM-based Vertical Text2Gremlin Augmentation
+
+Related code is located in [`./schema_gremlin`](./schema_gremlin/).
