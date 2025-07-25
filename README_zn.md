@@ -31,23 +31,27 @@ ANTLR4 的 jar 包（`antlr-4.13.1-complete.jar`）已下载并放在 `./gremlin
 之后运行 `build.sh` 脚本即可使用 ANTLR4 处理 `.g4` 文件，生成相应的解析器代码：
 
 ```bash
-cd Experiment-Text2Gremlin
+cd Text2Gremlin
 sh ./build.sh
 ```
 
-## 运行脚本
+## 第一阶段: 基于AST的Text2Gremlin测试
+此阶段仅基于AST测试Text2Gremlin的实现，无实际实现意义
 
-### AST 生成
+### AST生成
 ```bash
 python ./gremlin_ast_gen.py
 ```
 
-### 利用 AST 检查语法错误
+### 使用AST进行语法检查
 ```bash
 python ./gremlin_grammar_test.py
 ```
 
-### 利用 AST 修改结果，生成新的 Gremlin 查询语句
+### 修改AST并生成新的Gremlin查询
 ```bash
 python ./gremlin_ast_generator.py
 ```
+## 第二阶段: 基于LLM的垂类场景Text2Gremlin数据增强
+
+相关代码位于[`./schema_gremlin`](./schema_gremlin/)
