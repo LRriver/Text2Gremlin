@@ -55,3 +55,7 @@ python ./gremlin_ast_generator.py
 ## Phase 2: LLM-based Vertical Text2Gremlin Augmentation
 
 Related code is located in [`./schema_gremlin`](./schema_gremlin/).
+
+## Phase 3: AST-based General Scenario Text2Gremlin Data Augmentation （Future Plans）
+
+Will be updated soon ...

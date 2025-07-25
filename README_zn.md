@@ -55,3 +55,7 @@ python ./gremlin_ast_generator.py
 ## 第二阶段: 基于LLM的垂类场景Text2Gremlin数据增强
 
 相关代码位于[`./schema_gremlin`](./schema_gremlin/)
+
+## 第三阶段：基于AST通用场景的Text2Gremlin数据增强（未来计划）
+
+即将更新...

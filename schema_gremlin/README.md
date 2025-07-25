@@ -12,6 +12,6 @@
 
 - **`./da_data`**：schema与graph数据
 
-- **`./data/seed_data`**：种子数据
+- **`./data/seed_data`**：种子数据 (待上传)
 
-- **`./data/vertical_training_sets`**：垂类场景泛化数据
+- **`./data/vertical_training_sets`**：垂类场景泛化数据 (待上传)
