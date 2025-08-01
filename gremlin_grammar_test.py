@@ -56,7 +56,7 @@ def check_gremlin_syntax(query_string):
 
 def main():
     # 语法正确的查询
-    correct_query = "g.V().has('person','name','marko').out('knows')"
+    correct_query = "g.V().has('Person', 'name', 'Gloria Foster').out('ACTED_IN').out('HAS_GENRE').order().by('name', asc).path().by('name').by('title').by('name')"
     check_gremlin_syntax(correct_query)
 
     print("\n" + "="*50 + "\n")
