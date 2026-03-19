@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](./README_zh.md)
 
-**This repository is an independent backup of the AST_Text2Gremlin module from [https://github.com/apache/hugegraph-ai/tree/text2gql/text2gremlin/AST_Text2Gremlin](https://github.com/apache/hugegraph-ai/tree/text2gql/text2gremlin/AST_Text2Gremlin).**
+**This repository is an independent backup of the AST_Text2Gremlin module from https://github.com/apache/hugegraph-ai/tree/text2gql/text2gremlin/AST_Text2Gremlin **
 
 Generate a large and diverse set of Gremlin queries and their corresponding natural language descriptions based on ASTs and templates, and perform multi-stage data augmentation and preference data synthesis using LLMs for training and evaluating text-to-Gremlin models.
 
